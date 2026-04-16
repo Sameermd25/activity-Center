@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Routes, Route } from "react-router-dom";
-import { Navbar } from "./components/Navbar";
+import { NavBar } from "./components/NavBar";
 import { NavWorkflowsPanel } from "./panels/NavWorkflowsPanel";
 import { CapitalEventsPanel } from "./panels/CapitalEventsPanel";
 import { ReportsPanel } from "./panels/ReportsPanel";
@@ -15,7 +15,7 @@ export default function App() {
 
   return (
     <>
-      <Navbar />
+      <NavBar />
 
       <Routes>
         {/* 👇 ALL DASHBOARD */}
