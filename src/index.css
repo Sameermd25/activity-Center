@@ -1,0 +1,18 @@
+/* RESET */
+* {
+  box-sizing: border-box;
+}
+
+/* ROOT LAYOUT */
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+  background: #F4F5F7;
+  color: #111827;
+}

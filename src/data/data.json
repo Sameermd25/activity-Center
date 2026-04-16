@@ -1,0 +1,543 @@
+{
+  "navWorkflows": [
+    {
+      "id": 1,
+      "fund": "EBBR",
+      "entity": "EBBR Holdings LLC",
+      "workflow": "BBR Quarterly NAV",
+      "valueDate": "30 Sep 2025",
+      "progress": 72,
+      "status": [
+        {
+          "label": "Pre-period checks",
+          "type": "done"
+        },
+        {
+          "label": "Transactions",
+          "type": "done"
+        },
+        {
+          "label": "Capital & P&L",
+          "type": "done"
+        },
+        {
+          "label": "Client approval",
+          "type": "warn"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "fund": "Steerhead NL",
+      "entity": "Large Cap Direct Lending",
+      "workflow": "Daily Deliverables",
+      "valueDate": "30 Sep 2025",
+      "progress": 45,
+      "status": [
+        {
+          "label": "Trade processing",
+          "type": "warn"
+        },
+        {
+          "label": "Pricing",
+          "type": "warn"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "fund": "Steerhead NL",
+      "entity": "Large Cap Direct Lending",
+      "workflow": "FA Daily Workflow",
+      "valueDate": "30 Sep 2025",
+      "progress": 20,
+      "status": [
+        {
+          "label": "Capital activity",
+          "type": "gray"
+        },
+        {
+          "label": "Trade capture",
+          "type": "gray"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "fund": "Steerhead NL",
+      "entity": "Large Cap Direct Lending",
+      "workflow": "DA Daily Workflow",
+      "valueDate": "30 Sep 2025",
+      "progress": 88,
+      "status": [
+        {
+          "label": "Trade capture",
+          "type": "done"
+        },
+        {
+          "label": "Security master",
+          "type": "done"
+        },
+        {
+          "label": "Pricing & FX",
+          "type": "done"
+        },
+        {
+          "label": "Income",
+          "type": "done"
+        },
+        {
+          "label": "DA Sign-off",
+          "type": "warn"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "fund": "Alpha Credit",
+      "entity": "Structured Debt Fund",
+      "workflow": "Monthly NAV",
+      "valueDate": "31 Aug 2025",
+      "progress": 95,
+      "status": [
+        {
+          "label": "Validation",
+          "type": "done"
+        },
+        {
+          "label": "Client sign-off",
+          "type": "done"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "fund": "Beta Growth",
+      "entity": "Equity Fund II",
+      "workflow": "Quarterly NAV",
+      "valueDate": "30 Jun 2025",
+      "progress": 10,
+      "status": [
+        {
+          "label": "Data collection",
+          "type": "gray"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "fund": "Gamma Infra",
+      "entity": "Infrastructure Fund",
+      "workflow": "NAV Reconciliation",
+      "valueDate": "15 Sep 2025",
+      "progress": 55,
+      "status": [
+        {
+          "label": "Matching",
+          "type": "done"
+        },
+        {
+          "label": "Break analysis",
+          "type": "warn"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "fund": "Delta PE",
+      "entity": "Private Equity III",
+      "workflow": "Quarterly NAV",
+      "valueDate": "31 Jul 2025",
+      "progress": 67,
+      "status": [
+        {
+          "label": "Valuation",
+          "type": "done"
+        },
+        {
+          "label": "Audit",
+          "type": "warn"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "fund": "Omega Fund",
+      "entity": "Multi-Strategy",
+      "workflow": "NAV Pack",
+      "valueDate": "30 Sep 2025",
+      "progress": 80,
+      "status": [
+        {
+          "label": "Review",
+          "type": "done"
+        },
+        {
+          "label": "Client sign-off",
+          "type": "warn"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "fund": "Sigma Capital",
+      "entity": "Hedge Fund",
+      "workflow": "Daily NAV",
+      "valueDate": "29 Sep 2025",
+      "progress": 60,
+      "status": [
+        {
+          "label": "Pricing",
+          "type": "done"
+        },
+        {
+          "label": "Reconciliation",
+          "type": "warn"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "fund": "Zeta Ventures",
+      "entity": "VC Fund I",
+      "workflow": "Quarterly NAV",
+      "valueDate": "30 Jun 2025",
+      "progress": 35,
+      "status": [
+        {
+          "label": "Valuation",
+          "type": "warn"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "fund": "Kappa Fund",
+      "entity": "Real Estate Trust",
+      "workflow": "NAV Finalization",
+      "valueDate": "31 Aug 2025",
+      "progress": 90,
+      "status": [
+        {
+          "label": "Approval",
+          "type": "done"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "fund": "Lambda Assets",
+      "entity": "Credit Opportunities",
+      "workflow": "NAV Check",
+      "valueDate": "15 Sep 2025",
+      "progress": 50,
+      "status": [
+        {
+          "label": "Review",
+          "type": "warn"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "fund": "Theta Holdings",
+      "entity": "Balanced Fund",
+      "workflow": "NAV Prep",
+      "valueDate": "30 Sep 2025",
+      "progress": 25,
+      "status": [
+        {
+          "label": "Collection",
+          "type": "gray"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "fund": "Iota Capital",
+      "entity": "Global Macro",
+      "workflow": "NAV Completion",
+      "valueDate": "30 Sep 2025",
+      "progress": 100,
+      "status": [
+        {
+          "label": "Completed",
+          "type": "done"
+        }
+      ]
+    }
+  ],
+  "capitalEvents": [
+    {
+      "id": 5004,
+      "fund": "EBBR Rep III",
+      "type": "Net Call",
+      "date": "30 Mar 2026",
+      "status": "initiated"
+    },
+    {
+      "id": 4999,
+      "fund": "EBBR Rep III",
+      "type": "Call",
+      "date": "30 Mar 2026",
+      "status": "initiated"
+    },
+    {
+      "id": 4994,
+      "fund": "EBBR Rep III",
+      "type": "Call",
+      "date": "30 Mar 2026",
+      "status": "initiated"
+    },
+    {
+      "id": 4987,
+      "fund": "EBBR Rep III",
+      "type": "Call",
+      "date": "13 Mar 2026",
+      "status": "initiated"
+    },
+    {
+      "id": 4963,
+      "fund": "EBBR Fund I",
+      "type": "Call",
+      "date": "14 Feb 2026",
+      "status": "review"
+    },
+    {
+      "id": 4950,
+      "fund": "Alpha Credit",
+      "type": "Distribution",
+      "date": "10 Feb 2026",
+      "status": "completed"
+    },
+    {
+      "id": 4945,
+      "fund": "Beta Growth",
+      "type": "Call",
+      "date": "05 Feb 2026",
+      "status": "review"
+    },
+    {
+      "id": 4940,
+      "fund": "Gamma Infra",
+      "type": "Net Call",
+      "date": "01 Feb 2026",
+      "status": "initiated"
+    },
+    {
+      "id": 4935,
+      "fund": "Delta PE",
+      "type": "Distribution",
+      "date": "28 Jan 2026",
+      "status": "completed"
+    },
+    {
+      "id": 4930,
+      "fund": "Omega Fund",
+      "type": "Call",
+      "date": "20 Jan 2026",
+      "status": "initiated"
+    },
+    {
+      "id": 4925,
+      "fund": "Sigma Capital",
+      "type": "Call",
+      "date": "15 Jan 2026",
+      "status": "review"
+    },
+    {
+      "id": 4920,
+      "fund": "Zeta Ventures",
+      "type": "Distribution",
+      "date": "10 Jan 2026",
+      "status": "completed"
+    },
+    {
+      "id": 4915,
+      "fund": "Kappa Fund",
+      "type": "Net Call",
+      "date": "05 Jan 2026",
+      "status": "initiated"
+    }
+  ],
+  "reports": [
+    {
+      "entity": "Steerhead Alt Energy",
+      "name": "Reconciliations",
+      "group": "Accounting",
+      "created": "30 May 2025",
+      "status": "delivered"
+    },
+    {
+      "entity": "AHTestFeeder",
+      "name": "Carry Calculation",
+      "group": "Accounting",
+      "created": "—",
+      "status": "pending"
+    },
+    {
+      "entity": "Alpha Credit",
+      "name": "NAV Pack",
+      "group": "Reporting",
+      "created": "15 Jun 2025",
+      "status": "delivered"
+    },
+    {
+      "entity": "Beta Growth",
+      "name": "Investor Statement",
+      "group": "Client",
+      "created": "01 Jul 2025",
+      "status": "review"
+    },
+    {
+      "entity": "Gamma Infra",
+      "name": "Audit File",
+      "group": "Compliance",
+      "created": "20 Jul 2025",
+      "status": "pending"
+    },
+    {
+      "entity": "Delta PE",
+      "name": "Quarterly Report",
+      "group": "Reporting",
+      "created": "05 Aug 2025",
+      "status": "delivered"
+    },
+    {
+      "entity": "Omega Fund",
+      "name": "NAV Summary",
+      "group": "Accounting",
+      "created": "10 Aug 2025",
+      "status": "review"
+    },
+    {
+      "entity": "Sigma Capital",
+      "name": "P&L Report",
+      "group": "Accounting",
+      "created": "12 Aug 2025",
+      "status": "delivered"
+    },
+    {
+      "entity": "Zeta Ventures",
+      "name": "Valuation Report",
+      "group": "Valuation",
+      "created": "15 Aug 2025",
+      "status": "pending"
+    },
+    {
+      "entity": "Kappa Fund",
+      "name": "Investor Pack",
+      "group": "Client",
+      "created": "18 Aug 2025",
+      "status": "delivered"
+    },
+    {
+      "entity": "Lambda Assets",
+      "name": "Compliance Report",
+      "group": "Compliance",
+      "created": "20 Aug 2025",
+      "status": "review"
+    },
+    {
+      "entity": "Theta Holdings",
+      "name": "NAV Review",
+      "group": "Accounting",
+      "created": "22 Aug 2025",
+      "status": "pending"
+    },
+    {
+      "entity": "Iota Capital",
+      "name": "Final NAV",
+      "group": "Reporting",
+      "created": "25 Aug 2025",
+      "status": "delivered"
+    },
+    {
+      "entity": "Mu Investments",
+      "name": "Audit Support",
+      "group": "Compliance",
+      "created": "28 Aug 2025",
+      "status": "review"
+    },
+    {
+      "entity": "Nu Fund",
+      "name": "Tax Report",
+      "group": "Tax",
+      "created": "30 Aug 2025",
+      "status": "pending"
+    }
+  ],
+  "payments": [
+    {
+      "id": 406,
+      "type": "Deal Payment",
+      "date": "20 Jun 2025",
+      "amount": 50000,
+      "status": "client"
+    },
+    {
+      "id": 399,
+      "type": "One Off Payment",
+      "date": "19 Jun 2025",
+      "amount": 9000,
+      "status": "client"
+    },
+    {
+      "id": 390,
+      "type": "Fee Payment",
+      "date": "15 Jun 2025",
+      "amount": 12000,
+      "status": "processed"
+    },
+    {
+      "id": 388,
+      "type": "Dividend",
+      "date": "10 Jun 2025",
+      "amount": 25000,
+      "status": "processed"
+    },
+    {
+      "id": 380,
+      "type": "Refund",
+      "date": "05 Jun 2025",
+      "amount": 3000,
+      "status": "pending"
+    },
+    {
+      "id": 375,
+      "type": "Bonus",
+      "date": "01 Jun 2025",
+      "amount": 7000,
+      "status": "processed"
+    },
+    {
+      "id": 370,
+      "type": "Interest Payment",
+      "date": "28 May 2025",
+      "amount": 15000,
+      "status": "processed"
+    }
+  ],
+  "otherWorkflows": [
+    {
+      "fund": "Steerhead Tech",
+      "entity": "Innovation Fund",
+      "name": "Controller Report Pack",
+      "valueDate": "30 May 2025",
+      "status": [
+        "Pre-req check",
+        "CAS Reports ✓"
+      ]
+    },
+    {
+      "fund": "Steerhead Tech",
+      "entity": "Innovation Fund",
+      "name": "Controller Report Pack",
+      "valueDate": "12 Mar 2025",
+      "status": [
+        "Pre-req check",
+        "CAS Reports ✓"
+      ]
+    }
+  ]
+}
